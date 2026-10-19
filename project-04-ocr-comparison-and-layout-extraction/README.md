@@ -10,6 +10,16 @@
 | [`Ophelie_Scanned_SDF_OCR_v2.ipynb`](notebooks/Ophelie_Scanned_SDF_OCR_v2.ipynb) | Analyze a scanned PDF with Tesseract (submitted version) |
 | [`Ophelie_OCR_Engine_Comparison.ipynb`](notebooks/Ophelie_OCR_Engine_Comparison.ipynb) | Tesseract vs EasyOCR vs PaddleOCR |
 
+## Results
+
+**Tesseract vs EasyOCR vs PaddleOCR:** the bounding boxes each engine detected on the same scanned Certificate of Quality.
+
+![Bounding boxes from Tesseract, EasyOCR and PaddleOCR side by side](../assets/p04-ocr-engines-side-by-side.png)
+
+**Scanned-PDF extraction:** fields located on a preprocessed (denoised, thresholded, deskewed) scanned page.
+
+![Extracted fields with bounding boxes on a scanned page](../assets/p04-scanned-extracted-fields.png)
+
 ## Reports
 
 - [OCR Engine Comparison Report: Tesseract vs EasyOCR vs PaddleOCR](reports/ocr-engine-comparison-report.md)
