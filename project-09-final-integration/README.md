@@ -4,6 +4,8 @@
 
 The end-to-end system lives in the Project 8 capstone notebook: [`Pfizer_Capstone_Full_RAG_UI.ipynb`](../project-08-gradio-rag-chatbot/notebooks/Pfizer_Capstone_Full_RAG_UI.ipynb). It builds on the segmentation and routing work from [Project 7](../project-07-blob-processing-classification-routing/).
 
+![The end-to-end system answering a question with page citations and a retrieval confidence score](../assets/p08-chatbot-animal-origin.png)
+
 ## Final presentation
 
 - [Reading the blob: final presentation to Pfizer (text version)](reports/final-presentation-reading-the-blob.md)
