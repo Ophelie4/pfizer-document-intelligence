@@ -9,6 +9,12 @@
 | [`Ophelie_SDF_Extraction.ipynb`](notebooks/Ophelie_SDF_Extraction.ipynb) | Extract and structure data from SDFs with PyMuPDF (words and blocks) |
 | [`Ophelie_SDF_Field_Extraction.ipynb`](notebooks/Ophelie_SDF_Field_Extraction.ipynb) | Extract key dates with regex, anchor phrases and bounding boxes, then draw the boxes back onto the pages |
 
+## Results
+
+**Extracted fields drawn back onto the page:** the bounding boxes found by the anchor-phrase + regex pipeline (Lot Number, Date of Manufacture, Expiration Date, Product Description) on page 2 of the SDF.
+
+![Extracted field bounding boxes on a Certificate of Quality](../assets/p03-field-bounding-boxes.png)
+
 ## Reports
 
 - [SDF Extraction Results: PyMuPDF](reports/sdf-extraction-results-pymupdf.md)
