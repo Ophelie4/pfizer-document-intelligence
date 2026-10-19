@@ -10,7 +10,17 @@
 | [`Pfizer_Document_QA_Chatbot.ipynb`](notebooks/Pfizer_Document_QA_Chatbot.ipynb) | My own document Q&A chatbot interface |
 | [`Pfizer_Capstone_Full_RAG_UI.ipynb`](notebooks/Pfizer_Capstone_Full_RAG_UI.ipynb) | Full RAG UI (capstone) |
 
-> The Gradio apps ran on temporary `gradio.live` share links, which expire. To see an app, open its notebook in Colab and run all cells.
+## The app in action
+
+**Pharma Document Intelligence (capstone).** Two sample supplier packets are indexed (2 files, 20 pages, 8 documents, 49 chunks). Every answer comes with its source pages, similarity scores and a confidence score computed from retrieval.
+
+![Asking whether the product contains animal-origin material: the answer cites four BSE/TSE Declaration passages at 76.5% confidence](../assets/p08-chatbot-animal-origin.png)
+
+**Metadata filtering.** The same index restricted to *Packaging Specification* with a detailed answer. All four retrieved passages come from the right document type.
+
+![Asking about packaging configuration changes with the Packaging Specification filter on](../assets/p08-chatbot-packaging-filter.png)
+
+> The Gradio apps run on temporary `gradio.live` share links, which expire. To try an app yourself, open its notebook in Colab and run all cells.
 
 ## Reports and decks
 
