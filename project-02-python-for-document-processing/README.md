@@ -18,6 +18,12 @@
 | [`Ophelie_Text_Cleaning.ipynb`](notebooks/Ophelie_Text_Cleaning.ipynb) | Text cleaning and standardization |
 | [`Ophelie_Image_Preprocessing.ipynb`](notebooks/Ophelie_Image_Preprocessing.ipynb) | Enhancing a scanned document (denoising, CLAHE, Otsu) |
 
+## Results
+
+**Image preprocessing:** the original noisy image, then denoised + CLAHE contrast enhancement, then Otsu thresholding.
+
+![Image preprocessing: original, denoised + contrast enhanced, and Otsu binary](../assets/p02-image-preprocessing.png)
+
 ## Output files
 
 - [`data/orders_flat.json`](data/orders_flat.json): the nested orders JSON flattened with `pd.json_normalize`
