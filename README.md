@@ -4,6 +4,8 @@ My work from the **Pfizer Advanced: AI-Powered Document Insights & Data Extracti
 
 Over nine projects I built a document intelligence system for pharmaceutical supplier documentation (SDFs). The finished system takes a single PDF "blob" that holds many documents, splits it into its separate documents, classifies every page, and answers questions through a Gradio chat interface. Every answer comes with page citations and a confidence score. The whole pipeline runs on open-source models.
 
+![Pharma Document Intelligence: a Gradio app answering a question about supplier documents, with cited sources and a confidence score](assets/p08-chatbot-animal-origin.png)
+
 **Author:** Ophelie Bisamaza · [GitHub](https://github.com/Ophelie4) · [LinkedIn](https://www.linkedin.com/in/ophelie-bisamaza)
 
 ---
