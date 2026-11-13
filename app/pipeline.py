@@ -15,8 +15,6 @@ import re
 from functools import lru_cache
 from pathlib import Path
 
-import numpy as np
-
 # ── configuration ─────────────────────────────────────────────────────────────
 EMBED_ID = os.getenv("PDI_EMBED_MODEL", "BAAI/bge-small-en-v1.5")
 GPU_MODEL = "unsloth/mistral-7b-instruct-v0.3-bnb-4bit"   # 4-bit Mistral-7B-Instruct-v0.3
