@@ -22,6 +22,8 @@
 
 > The Gradio apps run on temporary `gradio.live` share links, which expire. To try an app yourself, open its notebook in Colab and run all cells.
 
+**Interface redesign (after the externship).** I later rebuilt the capstone interface to look and work like an internal tool: a summary of the indexed packet, an inventory of the documents detected in each file, suggested questions, and an evidence panel that shows the confidence meter and the full text of every cited passage. The screenshots above show the version I presented. The same system also runs outside Colab as a standalone app, in [`app/`](../app/).
+
 ## Reports and decks
 
 - [Full RAG Pipeline: Project Write-up](reports/full-rag-pipeline-writeup.md)

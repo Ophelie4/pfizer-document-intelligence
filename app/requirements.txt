@@ -1,0 +1,13 @@
+gradio>=6.0
+pymupdf>=1.24
+pytesseract>=0.3.10
+pillow>=10.0
+numpy>=1.26
+faiss-cpu>=1.8
+sentence-transformers>=3.0
+transformers>=4.44
+accelerate>=0.33
+torch>=2.2
+gdown>=5.1
+# GPU only: 4-bit loading for Mistral-7B. Safe to leave out on a CPU machine.
+bitsandbytes>=0.43; platform_system == "Linux"
